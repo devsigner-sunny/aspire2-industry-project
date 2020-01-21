@@ -1,0 +1,116 @@
+.tri-container {
+  position: relative;
+  margin-left: 30%;
+  margin-top: -10%;
+  width: 80%;
+  display: block;
+  clear: both;
+  padding-bottom: 10%;
+}
+.tri-container2 {
+  position: relative;
+  margin-left: 50%;
+  margin-top: -17%;
+  width: 80%;
+  display: block;
+  clear: both;
+  padding-bottom: 10%;
+}
+
+.floating-bar{
+  width: 100%;
+  height: 30px;
+  background: grey;
+  position: relative;
+  z-index: 80;
+  top: 30%
+}
+
+
+.up {
+  width: 0px;
+  height: 0px;
+  border-style: inset;
+  border-width: 0px 7.5rem 10rem 7.5rem;
+  border-color: transparent transparent #0f33ff transparent;
+  float: left;
+  transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -webkit-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  margin-left: -7.5rem;
+}
+
+
+.up .bold {
+    text-align: center;
+    font-weight: bold;
+    top: 100px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 53px;
+    margin: 0px;
+}
+
+.up .keyword {
+    text-align: center;
+    top: 50px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 53px;
+    margin: 0px;
+}
+.up .element{
+  text-align: center;
+  top: 3rem;
+  left: -47px;
+  position: relative;
+  width: 93px;
+  height: 53px;
+  margin: 0px;
+}
+.down {
+  width: 0px;
+  height: 0px;
+  border-style: inset;
+  border-width: 10rem 7.5rem 0px 7.5rem;
+  border-color: #0f33ff transparent transparent transparent;
+  float: left;
+  transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -webkit-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  margin-left: -7.5rem;
+}
+.down .bold {
+    text-align: center;
+    font-weight: bold;
+    top: -140px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 53px;
+    margin: 0px;
+}
+.down .keyword {
+    text-align: center;
+    top: -190px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 53px;
+    margin: 0px;
+}
+.down .element {
+    text-align: center;
+    top: -300px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 53px;
+    margin: 0px;
+}

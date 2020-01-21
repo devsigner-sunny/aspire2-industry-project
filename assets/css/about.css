@@ -1,0 +1,109 @@
+.work::before{
+  content: "";
+  position: absolute;
+  top: 120px;
+  left: 200px;
+  -webkit-transform: rotate(-25deg);
+  transform: rotate(-25deg);
+  border: 5px solid #0f33ff;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+.work::after{
+  content: "";
+  position: absolute;
+  top: 75px;
+  left: 400px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background-color: #0f33ff;
+}
+
+.work h2::before{
+  content: "";
+  position: absolute;
+  top: 24%;
+  left: 75%;
+  width: 25px;
+  height: 25px;
+  background-color: #0f33ff;
+  border-radius: 50%;
+}
+
+.work h2::after{
+  content: "";
+  position: absolute;
+  top: 200px;
+  left: 255px;
+  width: 10px;
+  height: 10px;
+  background-color: #0f33ff;
+}
+
+.side-wrapper{
+  display: flex;
+  position: relative;
+  width: 80%;
+  left: 10%;
+  margin-top: 40px;
+}
+
+.each-side{
+  padding: 0 2%;
+  width: 42%;
+}
+
+.side-right{
+  position: relative;
+  left: 5%;
+
+}
+
+.each-side p{
+  color: #999;
+  /* text-align: justify; */
+  font-size: 15px;
+}
+.each-side ul{
+  list-style-type: disc;
+}
+
+.about--options .offer_txt {
+  width: 90%;
+  text-align:left;
+  padding:0 5%;
+  margin-top: 90px;
+  font-size:  16px;
+}
+
+.intro--tetra{
+  height: unset;
+  min-height: 20rem;
+  padding: 5%;
+}
+
+.intro--options a.option--tetra{
+  max-width: unset;
+  width: 50%;
+  padding: 0 3%;
+}
+
+.option--tetra p{
+  font-size: 15px;
+}
+
+.work--tetra{
+  padding: 1rem 5% 2rem 5%;
+  font-size: 16px;
+  text-align:center;
+  color: #ccc;
+}
+
+.work--list{
+  border-bottom: 2px solid #555;
+  padding: 4rem 20%;
+  list-style: disc;
+  font-size: 1rem;
+}
